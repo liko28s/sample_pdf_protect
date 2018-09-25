@@ -21,12 +21,12 @@ Cuando esté listo solo ejecute `docker-compose up -d --build`.
 * Un contenedor de Nginx con configuración básica para correr como balanceador de carga (proxy round-robin)
 * Tres contenedores corriendo apache2, php7.2 y la configuración necesaria para trabajar con IBM DB2
 
-|Servicio|Dirección|
-|------|---------|-----------|
-|LoadBalancer|[172.1.1.2:8080](http://172.1.1.2:8080)|
-|ApacheServerOne|[172.1.1.3:80](http://172.1.1.3)|
-|ApacheServerTwo|[172.1.1.4:80](http://172.1.1.4)|
-|ApacheServerThree|[172.1.1.5:80](http://172.1.1.5)|
+| Servicio | Dirección |
+| ------ | --------- |
+| LoadBalancer | [172.1.1.2:8080](http://172.1.1.2:8080) |
+| ApacheServerOne | [172.1.1.3:80](http://172.1.1.3) |
+| ApacheServerTwo | [172.1.1.4:80](http://172.1.1.4) |
+| ApacheServerThree | [172.1.1.5:80](http://172.1.1.5) |
 
 ## Configuraciones Extra ##
 
