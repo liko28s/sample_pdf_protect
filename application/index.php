@@ -1,6 +1,8 @@
 <?php
 
-require_once __DIR__ . '/vendor/autoload.php';
+require_once __DIR__ . '/vendor/setasign/fpdf/fpdf.php';
+require_once __DIR__ . '/vendor/setasign/fpdi/fpdi.php';
+require_once __DIR__ . '/vendor/madnh/fpdi-protection/FPDI_Protection.php';
 
 $originFile = "IVR_SE.pdf";
 $originFile = "protegido.pdf";
@@ -12,12 +14,12 @@ $alreadyProtected = False;
 
 try {
     $ownerPassword = $pdf->setProtection(
-        array(),
+        0,
         $pass,
         'ABCD'
     );
     $pageCount = $pdf->setSourceFile($originFile);
-} catch (CrossReferenceException $error) {
+} catch (Exception $error) {
     $alreadyProtected = True;
 }
 
