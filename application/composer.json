@@ -1,0 +1,6 @@
+{
+    "name": "rami/test",
+    "require": {
+        "setasign/fpdi-protection": "^2.0"
+    }
+}
