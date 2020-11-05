@@ -19,14 +19,9 @@ services:
             ipv4_address: 172.1.1.2
      
     server-one:
-      image: php:5.3-apache
+      image: php:7.2-apache
       container_name: server-one
       working_dir: /var/www/html/
-      environment:
-        - APACHE_RUN_DIR="/var/www/html"
-        - APACHE_RUN_USER="www-data"
-        - APACHE_RUN_GROUP="www-data"
-        - APACHE_LOG_DIR="/var/www/"
       volumes:
           - ./application/:/var/www/html/
           - ./resources/php/000-default.conf/:/etc/apache2/apache2.conf

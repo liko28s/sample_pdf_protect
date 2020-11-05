@@ -8,6 +8,7 @@ class ComposerStaticInitcca1e5f582ed9779da6c3b42dcda1907
 {
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'FPDF' => __DIR__ . '/..' . '/setasign/fpdf/fpdf.php',
         'FPDF_TPL' => __DIR__ . '/..' . '/setasign/fpdi/fpdf_tpl.php',
         'FPDI' => __DIR__ . '/..' . '/setasign/fpdi/fpdi.php',
         'FPDI_Protection' => __DIR__ . '/..' . '/madnh/fpdi-protection/FPDI_Protection.php',

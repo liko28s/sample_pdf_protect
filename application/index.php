@@ -2,15 +2,12 @@
 
 require_once __DIR__ . '/vendor/autoload.php';
 
-use setasign\Fpdi\PdfParser\CrossReference\CrossReferenceException;
-use setasign\FpdiProtection\FpdiProtection;
-
 $originFile = "IVR_SE.pdf";
 $originFile = "protegido.pdf";
 $destFile = "alternativo/".$originFile;
 $pass = "123";
 
-$pdf = new FpdiProtection();
+$pdf = new \FPDI_Protection();
 $alreadyProtected = False;
 
 try {

@@ -29,6 +29,15 @@
       ),
       'reference' => NULL,
     ),
+    'setasign/fpdf' => 
+    array (
+      'pretty_version' => '1.8.2',
+      'version' => '1.8.2.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'd77904018090c17dc9f3ab6e944679a7a47e710a',
+    ),
     'setasign/fpdi' => 
     array (
       'pretty_version' => '1.6.2',
