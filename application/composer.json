@@ -1,6 +1,11 @@
 {
     "name": "rami/test",
+    "config": {
+        "platform": {
+            "php": "5.3.3"
+        }
+    },
     "require": {
-        "setasign/fpdi-protection": "^2.0"
+        "madnh/fpdi-protection": "^1.0"
     }
 }

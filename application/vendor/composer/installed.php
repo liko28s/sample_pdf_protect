@@ -11,6 +11,15 @@
   ),
   'versions' => 
   array (
+    'madnh/fpdi-protection' => 
+    array (
+      'pretty_version' => '1.0.6',
+      'version' => '1.0.6.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'e4acdaccf9d6d0e18132a75209eb1850ffc08514',
+    ),
     'rami/test' => 
     array (
       'pretty_version' => '1.0.0+no-version-set',
@@ -22,21 +31,12 @@
     ),
     'setasign/fpdi' => 
     array (
-      'pretty_version' => 'v2.3.4',
-      'version' => '2.3.4.0',
+      'pretty_version' => '1.6.2',
+      'version' => '1.6.2.0',
       'aliases' => 
       array (
       ),
-      'reference' => '2b5fb811c04f937ef257ef3f798cebeded33c136',
-    ),
-    'setasign/fpdi-protection' => 
-    array (
-      'pretty_version' => 'v2.0.0',
-      'version' => '2.0.0.0',
-      'aliases' => 
-      array (
-      ),
-      'reference' => '1facfe245db748b9b90d7921c23361bde4cd0a65',
+      'reference' => 'a6ad58897a6d97cc2d2cd2adaeda343b25a368ea',
     ),
   ),
 );
